@@ -1,0 +1,38 @@
+<ion-view align-title="left" hide-nav-bar="true" class="corpoLogin">
+    <ion-content class="background"></ion-content>
+    <ion-content class="backgroundContent">
+
+        <div class="content">
+            <div class="app-icon">
+                <img src="img/javacake.png" class="logo">
+            </div>
+        </div>
+
+        <!-- <div class="inputsInicio">
+            <input type="email" class="md-input" placeholder="Usuário" highlight-color="balanced">
+            <input type="password" class="md-input" placeholder="Senha" highlight-color="energized" />
+        </div> -->
+
+        <div class="list md-block">
+            <label class="item-input item-floating-label inputLogin">
+              <span class="input-label">Usuário</span>
+
+              <input ng-model="usuario.usuario" type="email" placeholder="Usuário" class="colorLogin">
+            </label>
+
+            <label class="item-input item-floating-label inputLogin">
+              <span class="input-label">Senha</span>
+
+              <input ng-model="senha.senha" type="password" placeholder="Senha" class="colorLogin">
+            </label>
+        </div>
+
+        <div>
+            <button ng-hide-animate="" ui-sref="app.paginaInicial" name="tab-proposta" class="botaoLogin">Entrar</button>
+            <button class="button button-royal icon ion-social-facebook loginFacebook" ng-click="login('facebook')" name="button"> Entrar com o Facebook</button>
+            <a class=" button button-stable  button-block button-clear icon-left ion-ios-email-outline " id="esqueceuSenha" >Esqueceu sua senha?</a>
+        </div>
+
+
+    </ion-content>
+</ion-view>

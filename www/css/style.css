@@ -1,0 +1,298 @@
+/* General
+==================================*/
+
+
+h1 {
+    color: #fff;
+    text-shadow: 0 1px 0px #000;
+    font-size: 42px;
+}
+.botaoConfiguracao {
+    margin-top: 50%;
+    margin-left: 110%;
+    color: white !important;
+}
+h2 {
+  color: #696969;
+}
+
+.tituloCards {
+  margin-top: 15px;
+}
+
+.close-modal {
+  position: absolute;
+  right: 0px;
+  top: 5px;
+  font-size: 1.8em;
+  text-align: center;
+  z-index: 10;
+  background-color: #f5f5f5;
+  border-radius: 30px;
+  width: 26px;
+  cursor: pointer;
+  line-height: 0px;
+  border: 1px solid #ddd;
+}
+
+
+.testeAnime {
+   background:rgba(192,192,192);
+   position: relative;
+}
+
+.animateProposta {
+ -vendor-animation-duration: 9s;
+ -vendor-animation-delay: 5s;
+ -vendor-animation-iteration-count: infinite;
+  position: relative;
+}
+
+.geral {
+	width: 400px;
+	height: 293px;
+	position: relative;
+	margin: 5% auto 5;
+	-webkit-perspective: 900;
+}
+
+.icone-item-title {
+  position: relative;
+  float: right;
+}
+
+
+.btnCompartilhar {
+  font-size: 13px;
+}
+
+.btnCancelar{
+  font-size: 13px;
+
+}
+
+.dadosProposta {
+  color: black;
+  margin-top: 15px;
+  margin-left: 0px;
+  font-size: 10px;
+
+}
+/*ion-tabs.tabs-striped .tab-item.tab-item-active {
+    border-color:  rgba(255, 255, 255, 0.7);
+    color:  rgba(255, 255, 255, 0.7);
+}
+
+ion-tabs .tab-item{
+    border-color:  rgba(255, 255, 255, 0.10);
+    color:  rgba(255, 255, 255, 0.9);
+}*/
+
+ion-tabs.tabs-striped .tabs {
+    background-color: rgba(255, 255, 255, 0.1);
+
+    margin-top: 1px;
+}
+.bar.bar-stable {
+    background-color: #349999;
+}
+
+.bar.bar-stable .title {
+    color: white;
+}
+
+
+/* Utilities
+==================================*/
+.title-bordered {
+    border-top: solid 2px #bbb;
+    padding-top: 30px;
+}
+
+p {
+    color: #555;
+    margin: 0 0 25px;
+}
+
+.scroll {
+    height: 100%;
+}
+
+
+
+
+/* Menu
+==================================*/
+.menu .bar.bar-header.expanded {
+    transition: all .5s ease-in-out;
+}
+
+.menu-open .bar.bar-header.expanded {
+    background-color: #222;
+}
+
+.menu h2 {
+    bottom: 0;
+    font-size: 18px;
+    left: 16px;
+    position: absolute;
+}
+
+.menu .avatar {
+    height: 88px;
+    width: 88px;
+}
+
+.menu.menu-left * {
+    font-weight: bold;
+}
+
+.menu-open .ion-navicon {
+    transform: rotate(-360deg);
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+.menu-open .ion-navicon:before {
+    content: "\f2ca";
+}
+
+
+
+/* Login
+==================================*/
+.app-icon {
+    /*height: 125px;*/
+    margin: 0 auto;
+    width: 100% !important;
+}
+
+.logo {
+    width: 100%;
+}
+
+.social-login {
+    position: fixed;
+    bottom: 0;
+}
+
+.inputsInicio {
+    margin-top: 10px;
+}
+
+
+.list {
+    outline: none;
+    border: none;
+    min-height: 48px;
+    text-align: left;
+}
+
+.input-label, input{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 15px !important;
+}
+
+.content {
+    margin-bottom: 5%;
+}
+.gerir {
+    min-width: 100px;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+}
+
+.inputLogin {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+}
+.colorLogin {
+      color: white !important;
+}
+
+
+.background {
+     background: url('../img/fundoLog.jpg') center;
+     -webkit-filter: blur(2px); /* Safari 6.0 - 9.0 */
+     filter: blur(2px);
+     background-size: cover;
+}
+
+.backgroundContent {
+    /*background-color: rgba(0,0,0,0.2);*/
+    padding:18%;
+    background: linear-gradient(transparent 60%,rgba(0,0,0,0.9i)); /* Standard syntax */
+    margin-top: 5%;
+
+}
+.loginFacebook {
+  color: white !important;
+  outline: none;
+  border: none;
+  width: 100% !important;
+  margin-top: 10px;
+
+}
+.avatar {
+    background: url('/img/login.jpg') center;
+}
+
+
+
+
+.botaoLogin{
+    background-color:rgba(0, 0, 0, 0.6);
+    color: white !important;
+    outline: none;
+    border: none;
+    padding: 5%;
+    /*position: absolute;*/
+    bottom: 5%;
+    width: 100% !important;
+}
+
+
+
+.botaoSair {
+    margin-top:2px;
+}
+
+.botaoLogin:active{
+    background-color: rgba(255,255,255,0.3) !important;
+}
+
+.tabsInicio {
+    margin-top: 60px;
+    background-color: rgba(0,0,0,0.2);
+    width: 100% !important;
+}
+
+
+.backgroundContentTabs {
+    background-color: rgba(0,0,0,0.2); padding:2%;
+    background: url('/img/login.jpg') center;
+}
+
+.button.button-assertive.button-clear {
+    color: black;
+    bottom: 3px;
+}
+
+
+
+
+.row {
+    position: fixed;
+    bottom: 0px;
+    z-index: 50;
+    background: white;
+    border-top: 1px solid lightgrey;
+}
+
+
+/*Relatórios*/
+.fundoRelatorios {
+    background: url('/img/fundoPropostas.jpg');
+    padding: 100%;
+    bottom: 100% !important;
+}
