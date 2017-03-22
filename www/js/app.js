@@ -50,8 +50,6 @@ angular.module('doceriaApp', ['ionic', 'angular-md5', 'ngAnimate', 'ngStorage', 
         usuario: {
             token: null,
             dispositivo: null,
-            avaliacao_propostas: true,
-            relatorios: true,
             idPush: null
         },
         idPush: null,
@@ -94,9 +92,52 @@ angular.module('doceriaApp', ['ionic', 'angular-md5', 'ngAnimate', 'ngStorage', 
                         templateUrl: 'views/paginaInicial.html',
                         controller: 'paginaInicialCtrl'
                     },
-                
+
                 }
             })
+
+            .state('app.perfil', {
+                url:'/perfil',
+                views: {
+                    'menuContent': {
+                        templateUrl: 'views/perfil.html',
+                        controller: 'perfilCtrl'
+                    },
+                }
+            })
+
+            .state('app.eventos', {
+                url:'/eventos',
+                views: {
+                    'menuContent': {
+                        templateUrl: 'views/eventos.html',
+                        controller: 'eventosCtrl'
+                    },
+                }
+            })
+            .state('app.cardapio', {
+                url:'/cardapio',
+                views: {
+                    'menuContent': {
+                        templateUrl: 'views/cardapio.html',
+                        controller: 'cardapioCtrl'
+                    },
+                }
+            })
+
+            .state('app.finalizarCompra', {
+                url:'/finalizarCompra',
+                views: {
+                    'menuContent': {
+                        templateUrl: 'views/finalizarCompra.html',
+                        controller: 'finalizarCompraCtrl'
+                    },
+                }
+            })
+
+
+
+
 
 
 

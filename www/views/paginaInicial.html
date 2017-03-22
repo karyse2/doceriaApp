@@ -1,22 +1,35 @@
 <ion-view view-title="Seja Bem Vindo">
     <ion-content ng-class="{expanded:isExpanded}" class="animate-fade-slide-in">
-        <div class="item card-item">
-            <div class="item item-avatar item-text-wrap">
-                
-                <strong>So Sweet Doces FInos</strong>
-            </div>
+        <div class="bar bar-header item-input-inset" >
+          <label class="item-input-wrapper">
+            <input type="search" placeholder="Buscar"><i class="ion-ios-search"></i>
+          </label>
         </div>
         <div class="item card-item">
-            <div class="item item-avatar item-text-wrap">
-                <span class="avatar" ></span>
-                <strong>So Sweet Doces FInos</strong>
-            </div>
+            <div class="list" ng-click="abrirCardapio()">
+            <a class="item item-avatar">
+              <img src="/img/soSweet.jpg" >
+              <h2>So Sweet Doces Finos</h2>
+            </a>
+        </div>
         </div>
         <div class="item card-item">
-            <div class="item item-avatar item-text-wrap">
-                <span class="avatar" ></span>
-                <strong>So Sweet Doces FInos</strong>
-            </div>
+            <a class="item item-avatar">
+              <img src="/img/soSweet.jpg">
+              <h2>Doce Docê</h2>
+            </a>
+        </div>
+        <div class="item card-item">
+            <a class="item item-avatar">
+              <img src="/img/soSweet.jpg">
+              <h2 >Ki Doce</h2>
+            </a>
+        </div>
+        <div  class="bar bar-header item-input-inset" >
+            <button class="button button-positive button-small button-outline" style="margin-left:90px;">
+              <span>Ativar minha localização</span>
+             <i class="ion-ios-location-outline" style="margin-left:5px;"></i>
+            </button>
         </div>
     </ion-content>
 </ion-view>

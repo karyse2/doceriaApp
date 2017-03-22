@@ -1,6 +1,7 @@
-angular.module("doceriaApp").controller('paginaInicialCtrl', function ($scope, $stateParams, $timeout) {
-    $scope.paginaInicial = function() {
-        $state.go("/app.paginaInicial");
+angular.module("doceriaApp").controller('paginaInicialCtrl', function ($scope, $stateParams, $timeout,$state) {
+    $scope.abrirCardapio = function () {
+        $state.go("app.cardapio");
+        console.log('acessou');
     }
 
 })

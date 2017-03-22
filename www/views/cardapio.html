@@ -1,0 +1,67 @@
+<ion-view view-title="Cardápio">
+    <div class="list" style="margin-top:50px;">
+        <ion-scroll zooming="true" direction="y" style="height: 500px">
+        <div style="height: 100%"</div>
+            <ion-checkbox ng-model="trufas">
+              <a class="item item-thumbnail-left ">
+                <img src="../img/trufas.jpg">
+                <p style="margin-top:5px;">Trufas de Chocolate</p>
+                </br>
+                <h4>Trufas deliciosas</h4>
+                <h2  style="margin-left:60px;margin-top:50px;">Valor: <span>R$2,50</span></h2>
+              </a>
+            </ion-checkbox>
+
+            <ion-checkbox ng-model="brigadeiroGourmet">
+                <a class="item item-thumbnail-left">
+                  <img src="../img/brigadeiro-gourmet.jpg">
+                  <p style="margin-top:5px;">Brigadeiro Gourmet</p>
+                  </br>
+                  <h4>Brigadeiro Gourmet delicioso</h4>
+                  <h2 style="margin-left:60px;margin-top:50px;">Valor: <span>R$3,50</span></h2>
+                </a>
+            </ion-checkbox>
+            <ion-checkbox ng-model="isChecked">
+              <a class="item item-thumbnail-left">
+                <img src="../img/brigadeiro-cafe.jpg">
+                <p style="margin-top:5px;">Brigadeiro de café</p>
+                </br>
+                <h4>Brigadeiro de café delicioso</h4>
+                <h2 style="margin-left:60px;margin-top:50px;">Valor: <span >R$2,70</span></h2>
+              </a>
+            </ion-checkbox>
+            <ion-checkbox ng-model="coco">
+              <a class="item item-thumbnail-left">
+                <img src="../img/doce-coco.jpg">
+                <p style="margin-top:5px;">Doce Coco</p>
+                </br>
+                <h4>Docinho de coco delicioso</h4>
+                <h2 style="margin-left:60px;margin-top:50px;">Valor: <span>R$4,00</span></h2>
+              </a>
+            </ion-checkbox>
+            <ion-checkbox ng-model="damasco">
+              <a class="item item-thumbnail-left">
+                <img src="../img/doce-damasco.jpg">
+                <p style="margin-top:5px;">Trufas de Chocolate</p>
+                </br>
+                <h4>Doce de damasco delicioso</h4>
+                <h2 style="margin-left:60px;margin-top:50px;">Valor: <span>R$3,50</span></h2>
+              </a>
+            </ion-checkbox>
+            </br>
+            <div class="column" style="margin-left:5px;position:relative">
+              <button class="button button-outline button-balanced " ng-click="finalizarCompra()">
+                Finalizar Compra
+                <i class="ion-ios-cart" style="font-size:20px;"></i>
+              </button>
+              <button style="position:relative" class="button button-outline button-energized">
+                Solicitar Orçamento
+                <i class="ion-ios-compose" style="font-size:20px;"></i>
+              </button>
+            </div>
+        </ion-scroll>
+
+  </div>
+
+
+</ion-view>

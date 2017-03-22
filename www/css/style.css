@@ -16,9 +16,24 @@ h2 {
   color: #696969;
 }
 
+.#map {
+  width: 100%;
+  height: 100%;
+}
+
+.scroll {
+  height: 100%;
+}
+
 .tituloCards {
   margin-top: 15px;
 }
+
+.formularioPerfil {
+
+}
+
+
 
 .close-modal {
   position: absolute;

@@ -21,37 +21,47 @@
     <link href="css/style.css" rel="stylesheet">
     <!-- <link type="text/css" rel="stylesheet" href="css/style.css"  media="screen,projection"/> -->
     <link rel="stylesheet" href="lib/animate.css/animate.min.css">
+    <!-- <link rel="stylesheet" href="lib/ionic/css/ionic.min.css"> -->
+    <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.css">
+    <!-- <link rel="stylesheet" href="lib/ionic/css/ionic.min.css"/> -->
+    <link rel="stylesheet" href="lib/ionic-calendar/dist/css/calendar.min.css"/>
+
+
     <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
     <link href="css/ionic.app.css" rel="stylesheet">
     -->
 
     <!-- ionic/angularjs js -->
+
+
     <script src="lib/jquery/dist/jquery.min.js"></script>
     <script src="lib/ionic/js/ionic.bundle.js"></script>
     <script src="lib/angular-md5/angular-md5.min.js"></script>
     <script src="lib/ngstorage/ngStorage.min.js"></script>
     <script src="js/html2canvas/html2canvas.min.js"></script>
-    <script src="lib/angular/angular-locale_pt-br.js"></script>
+
 
     <!-- cordova script (this will be a 404 during development) -->
     <script src="lib/ngCordova/dist/ng-cordova.min.js"></script>
     <script src="cordova.js"></script>
 
-    <script src="lib/jspdf/jspdf.min.js"></script>
 
     <!-- your app's js -->
     <script src="js/app.js"></script>
     <script src="js/controllers.js"></script>
 
     <script src="js/controllers/loginCtrl.js"></script>
+    <script src="js/controllers/finalizarCompra.js"></script>
+    <script src="js/controllers/cardapioCtrl.js"></script>
     <script src="js/controllers/menuCtrl.js"></script>
+    <script src="js/controllers/eventosCtrl.js"></script>
     <script src="js/controllers/paginaInicialCtrl.js"></script>
+    <script src="js/controllers/perfilCtrl.js"></script>
     <script src="js/services.js"></script>
+    <script type="text/javascript" src="plugins/cordova-plugin-calendar/www/Calendar.js"></script>
   </head>
   <body ng-app="doceriaApp" ng-controller="loginCtrl" ng-mode="">
-    <!--
-      The nav bar that will be updated as we navigate between views.
-    -->
+
 
 
     <ion-nav-view></ion-nav-view>

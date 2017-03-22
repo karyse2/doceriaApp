@@ -1,4 +1,4 @@
-angular.module("doceriaApp").controller('perfilCtrl', function ($scope, $stateParams, $timeout) {
+angular.module("doceriaApp").controller('perfilCtrl', function ($scope, $stateParams, $timeout, $state, $cordovaCamera) {
 
 
 })

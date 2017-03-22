@@ -21,6 +21,7 @@
     <preference name="android-minSdkVersion" value="16" />
     <preference name="BackupWebStorage" value="none" />
     <preference name="SplashScreen" value="screen" />
+    <preference  name = "android-build-tool " value = " gradle " />
     <platform name="android">
         <icon density="ldpi" src="resources/android/icon/drawable-ldpi-icon.png" />
         <icon density="mdpi" src="resources/android/icon/drawable-mdpi-icon.png" />
@@ -82,4 +83,12 @@
     <plugin name="cordova-plugin-device" spec="~1.1.5" />
     <plugin name="cordova-plugin-splashscreen" spec="~4.0.2" />
     <plugin name="ionic-plugin-keyboard" spec="~2.2.1" />
+    <plugin name = "cordova-plugin-calendar " />
+    <feature name="Calendar">
+    	<param name="ios-package" value="Calendar" />
+    </feature>
+    <!-- for Android -->
+<feature name="Calendar">
+  <param name="android-package" value="nl.xservices.plugins.Calendar" />
+</feature>
 </widget>
